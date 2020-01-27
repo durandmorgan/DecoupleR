@@ -1,0 +1,21 @@
+Package: DecoupleR
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Morgan",
+           family = "Durand",
+           role = c("aut", "cre"),
+           email = "morgan.durand.dev@gmail.com")
+Description: Port of the excellent python-decouple package for R. 
+License: Apache License (>= 2.0)
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat,
+    withr  (>= 2.1.2)
+RoxygenNote: 7.0.2
+Imports: 
+    assertthat,
+    here,
+    stringr,
+    magrittr
