@@ -8,3 +8,4 @@ Makefile
 DEV
 .lintr
 ^\.travis\.yml$
+^appveyor\.yml$
