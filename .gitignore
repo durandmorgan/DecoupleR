@@ -1,6 +1,7 @@
 # Project specific
 DEV/
 packrat/
+.Rprofile
 
 # History files
 .Rhistory
