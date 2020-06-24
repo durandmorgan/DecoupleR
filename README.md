@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/durandmorgan/DecoupleR.svg?branch=master)](https://travis-ci.org/durandmorgan/DecoupleR)
+[![Build status](https://ci.appveyor.com/api/projects/status/qwqoai8fhio1mjxl?svg=true)](https://ci.appveyor.com/project/durandm/decoupler)
+
 # DecoupleR
 Strict separation of settings from code.
 
