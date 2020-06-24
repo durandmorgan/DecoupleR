@@ -78,8 +78,8 @@ test_that("test_env_os_environ", {
 })
 
 test_that("test_env_undefined_but_present_in_os_environ", {
-  Sys.setenv(KeyOnlyEnviron = "")
-  expect_equal(get_var(env_file, "KeyOnlyEnviron"), "")
+  Sys.setenv(KeyOnlyEnviron = "keyonlyenviron")
+  expect_equal(get_var(env_file, "KeyOnlyEnviron"), "keyonlyenviron")
   Sys.unsetenv("KeyOnlyEnviron")
 })
 
