@@ -1,3 +1,5 @@
+^renv$
+^renv\.lock$
 ^LICENSE\.md$
 ^.*\.Rproj$
 ^\.Rproj\.user$
@@ -9,3 +11,4 @@ DEV
 .lintr
 ^\.travis\.yml$
 ^appveyor\.yml$
+TODO.md
