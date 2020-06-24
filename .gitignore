@@ -2,6 +2,7 @@
 DEV/
 packrat/
 .Rprofile
+renv/
 
 # History files
 .Rhistory
