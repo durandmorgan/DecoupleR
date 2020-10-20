@@ -1,6 +1,6 @@
 Package: DecoupleR
 Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
     person(given = "Morgan",
            family = "Durand",
@@ -13,7 +13,7 @@ LazyData: true
 Suggests: 
     testthat,
     withr  (>= 2.1.2)
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.0
 Imports: 
     assertthat,
     here,

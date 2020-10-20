@@ -10,7 +10,8 @@ remove_comments(lines)
 \item{lines}{A list of config file lines.}
 }
 \value{
-A list of config file lines where comment lines have been filtered out.
+A list of config file lines where comment lines have been filtered
+out.
 }
 \description{
 Parse config file and remove comment lines

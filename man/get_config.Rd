@@ -9,7 +9,7 @@ get_config(path = NULL)
 \arguments{
 \item{path}{a path from where a config if searched for.
 Parent directories will be evaluated if no config file is
-found is the specified directory. If NULL, the current 
+found is the specified directory. If NULL, the current
 directory will be taken as default.}
 }
 \value{
@@ -17,7 +17,8 @@ a list with variables / values from config file.
 If no config file has been found, an empyt list is returned.
 }
 \description{
-DecoupleR currently supports only .env files. `get_config` will serach if the speficied directory and its parent a `.env` file. 
+DecoupleR currently supports only .env files. `get_config` will search if
+the speficied directory and its parent a `.env` file.
 If no file is found, a empty list is returned.
 }
 \details{

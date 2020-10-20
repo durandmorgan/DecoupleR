@@ -18,14 +18,17 @@ If NULL, the config will be evaluated from the path argument.}
 
 \item{var_name}{the variable of interest}
 
-\item{path}{the path from where config files are searched for. If NULL, the current directory will be considered as default.}
+\item{path}{the path from where config files are searched for. If NULL,the
+current directory will be considered as default.}
 
 \item{default}{a default value}
 
-\item{cast}{Either a function or a type of cast. Currently implemented options are `integer`,  `boolean` or `float`.}
+\item{cast}{Either a function or a type of cast. Currently implemented
+options are `integer`,  `boolean` or `float`.}
 }
 \value{
-The value associated to the config variable. The type depends on the cast argument. Default is string
+The value associated to the config variable. The type depends on
+the cast argument. Default is string.
 }
 \description{
 Get a variable from, in order of priority, environment

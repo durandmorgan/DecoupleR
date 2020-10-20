@@ -10,7 +10,8 @@ get_config_filename_from_dir(path)
 \item{path}{The directory were config files are looking for.}
 }
 \value{
-the full path of the config file found. If no config file are found, it returns a `NULL`.
+the full path of the config file found.
+If no config file are found, it returns a `NULL`.
 }
 \description{
 Return config file path found in a directory
