@@ -5,6 +5,7 @@
 #' @return A list of config file lines where comment lines have been filtered
 #' out.
 #' @importFrom stringr str_subset
+
 remove_comments <- function(lines) {
   stringr::str_subset(lines, "^#", negate = TRUE)
 }
@@ -16,6 +17,7 @@ remove_comments <- function(lines) {
 #'
 #' @return A list of config file lines where empty lines have been filtered out.
 #' @importFrom stringr str_subset
+
 remove_empty_lines <- function(lines) {
   stringr::str_subset(lines, "^\\s*$", negate = TRUE)
 }
